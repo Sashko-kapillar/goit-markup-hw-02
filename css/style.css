@@ -6,18 +6,24 @@ body {
     background: #fff;
 }
 
+.top-line {
+    margin: 0;
+}
+
 h1, h2 {
     color: brown;
 }
 
 .nav {
     padding:25.5px 76px 25.5px 156px;
-    margin 0;
 }
 
-/* .nav-menu {
-    display: inline-flex;
-} */
+.nav-menu {
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 ul {
     display: inline-flex;
@@ -26,8 +32,9 @@ ul {
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 21px;
     font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
     color: #2e2f42;
     text-transform: uppercase;
     text-decoration: none;
