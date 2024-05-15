@@ -11,12 +11,16 @@ h1, h2 {
 }
 
 .nav {
-    padding:0px 76px 24px 156px;
+    padding:25.5px 76px 25.5px 156px;
     margin 0;
 }
 
-.nav-menu {
-    
+/* .nav-menu {
+    display: inline-flex;
+} */
+
+ul {
+    display: inline-flex;
 }
 
 .logo-link {
