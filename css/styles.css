@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
   color: #2e2f42;
+  color: #434455;
   width: 1440px;
   background: #fff;
 }
@@ -32,6 +32,11 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  color: #434455;
+}
+
+.menu-list:hover .menu-list:focus {
+  color: #404bbf;
 }
 
 /* .menu-item {
@@ -39,6 +44,14 @@ body {
 
 .menu-link {
   color: #2e2f42;
+}
+
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:focus {
+  color: #404bbf;
 }
 
 /* -----------    Top-line end    -------- */
@@ -100,7 +113,7 @@ body {
   cursor: pointer;
 }
 
-.hero-btn:hover .hero-btn:focus {
+.hero-btn:hover {
   background-color: #404bbf;
 }
 
