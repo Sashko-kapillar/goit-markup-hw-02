@@ -1,131 +1,237 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    width: 1440px;
-    height: 732px;
-    background: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  width: 1440px;
+  background: #fff;
 }
 
 /* -----------    Top-line    --------- */
-.top-line-logo {
+
+/* .heder {
 }
+.top-line-nav {
+} */
+
 .top-line-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
+
 .logo-clr {
+  color: #4d5ae5;
 }
-.top-line-list {
+
+.menu-list {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
-.top-line-item {
-}
-.top-line-menu-link {
-}
-.top-line-iteml {
+
+/* .menu-item {
+} */
+
+.menu-link {
+  color: #2e2f42;
 }
 
 /* -----------    Top-line end    -------- */
 
-
 /* -----------    Contacts    --------- */
 
-
-.contacts-title {
+/* .contacts-title {
 }
 .contacts-list {
 }
 .contacts-item {
-}
+} */
 
+.contacts-link {
+  color: #2e2f42;
+}
 
 /* -----------    Contacts end   --------- */
 
-
 /* -----------    Hero    --------- */
 
-
 .hero {
-}
-.hero-title {
-}
-.hero-btn {
+  background: #2e2f42;
 }
 
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
 
 /* -----------    Hero  end  --------- */
 
-
 /* -----------    Advantages   --------- */
 
+/* .advantages {
+  width: 1128px;
+  height: 104px;
+} */
 
-.advantages {
-}
 .advantages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-.advantages-list {
+
+/* .advantages-list {
 }
 .advantages-item {
-}
+} */
+
 .advantages-subtitle {
-}
-.advantages-item-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
+.advantages-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* -----------    Advantages end  --------- */
 
-
 /* -----------    Team   --------- */
 
-
 .team {
-}
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-img {
-}
-.team-subtitle {
-}
-.team-item-text {
+  background: #f4f4fd;
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* .team-list {
+} */
+.team-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+}
+
+/* .team-img {
+} */
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
 
 /* -----------    Team end  --------- */
 
-
 /* -----------    Portfolio  --------- */
 
+/* .portfolio {
+} */
 
-.portfolio {
-}
 .portfolio-title {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-img {
-}
-.portfolio-subtitle {
-}
-.portfolio-item-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
+/* .portfolio-list {
+} */
+
+.portfolio-item {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+.portfolio-img {
+  width: 360px;
+  height: 300px;
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* -----------    Portfolio end  --------- */
 
-
 /* -----------    Footer   --------- */
 
-
 .footer {
-}
-.footer-img {
-}
-.footer-text {
+  background: #2e2f42;
 }
 
+.footer-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
 
 /* -----------    Footer end  --------- */
