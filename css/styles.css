@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   color: #434455;
-  width: 1440px;
   background: #fff;
 }
 
@@ -103,12 +102,9 @@ body {
   font-weight: 500;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -133,7 +129,7 @@ body {
 .advantages-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -178,8 +174,6 @@ body {
 /* .team-list {
 } */
 .team-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
@@ -227,15 +221,13 @@ body {
 } */
 
 .portfolio-item {
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 
-.portfolio-img {
+/* .portfolio-img {
   width: 360px;
   height: 300px;
-}
+} */
 
 .portfolio-subtitle {
   font-weight: 500;
