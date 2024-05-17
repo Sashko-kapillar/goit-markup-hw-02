@@ -4,6 +4,12 @@ body {
   background: #fff;
 }
 
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 /* -----------    Top-line    --------- */
 
 /* .heder {
