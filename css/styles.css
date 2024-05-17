@@ -68,19 +68,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contacts-item-email > .contacts-link {
-  color: #2e2f42;
-}
-
 .contacts-link {
   color: #434455;
 }
 
-.contacts-link:hover .contacts-link:hover {
+.contacts-link:hover {
   color: #404bbf;
 }
 
-.contacts-link:focus .contacts-link:focus {
+.contacts-link:focus {
   color: #404bbf;
 }
 
