@@ -58,11 +58,11 @@ body {
 
 .contacts-title {
   font-style: normal;
+}
+
+.contacts-list {
   color: #434455;
 }
-/*
-.contacts-list {
-}*/
 
 .contacts-item {
   line-height: 1.5;
