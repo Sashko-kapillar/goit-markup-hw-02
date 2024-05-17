@@ -60,24 +60,27 @@ body {
   font-style: normal;
 }
 
-.contacts-list {
-  color: #434455;
-}
+/* .contacts-list {
+} */
 
 .contacts-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contacts-link {
+.contacts-link-email {
   color: #2e2f42;
 }
 
-.contacts-link:hover {
+.contacts-link-tel {
+  color: #434455;
+}
+
+.contacts-link-email:hover .contacts-link-tel:hover {
   color: #404bbf;
 }
 
-.contacts-link:focus {
+.contacts-link-email:focus .contacts-link-tel:focus {
   color: #404bbf;
 }
 
@@ -120,8 +123,6 @@ body {
 /* -----------    Advantages   --------- */
 
 /* .advantages {
-  width: 1128px;
-  height: 104px;
 } */
 
 .advantages-title {
@@ -224,8 +225,6 @@ body {
 }
 
 /* .portfolio-img {
-  width: 360px;
-  height: 300px;
 } */
 
 .portfolio-subtitle {
